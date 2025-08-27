@@ -1,1 +1,21 @@
+body {
+  background-color: #A3A5CC; 
+  color: #47BA8C; 
+  font-family: sans-serif; 
+  margin: 20px; 
+}
+
+h1 {
+  color: #52C498;            
+}
+
+a {
+  color: C000FF; 
+  text-decoration: none; 
+}
+
+/* リンクにマウスを乗せたとき */
+a:hover {
+  text-decoration: underline; /* 下線を表示 */
+}
 
