@@ -1,12 +1,14 @@
 body {
-  background-color: #A3A5CC; 
-  color: #A6DB42; 
+  background-color: #3A5B52; 
+  color: #B0D0E0; 
   font-family: sans-serif; 
   margin: 20px; 
+  text-shadow: 1px 1px 2px #000; 
 }
 
 h1 {
-  color: #A6DB42;            
+  color: #B0D0E0; 
+  text-shadow: 1px 1px 2px #000; 
 }
 
 a {
