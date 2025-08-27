@@ -10,12 +10,10 @@ h1 {
 }
 
 a {
-  color: C000FF; 
+  color: #C000FF; 
   text-decoration: none; 
 }
 
-/* リンクにマウスを乗せたとき */
 a:hover {
-  text-decoration: underline; /* 下線を表示 */
-}
+  text-decoration: underline; 
 
