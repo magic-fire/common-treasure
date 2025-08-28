@@ -48,6 +48,7 @@ a:hover {
   background-color: rgba(2,66,38,0.9);
   transition: left 0.3s;
   padding: 10px;
+  overflow-y: auto; 
 }
 
 #sidebar.open {
