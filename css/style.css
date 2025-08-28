@@ -1,6 +1,7 @@
 body {
   background-color: #3A5B52; 
   color: #B0D0E0; 
+  font-size: 24px; 
   font-family: sans-serif; 
   margin: 20px; 
   text-shadow: 1px 1px 2px #000; 
@@ -8,6 +9,7 @@ body {
 
 h1 {
   color: #B0D0E0; 
+  font-size: 36px; 
   text-shadow: 1px 1px 2px #000; 
 }
 
