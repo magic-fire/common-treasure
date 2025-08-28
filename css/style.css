@@ -17,6 +17,7 @@ header p {
 }
 
 header {
+  margin: -20px;
   background-color: rgba(2,66,38,0.8);
   display: flex;
   flex-direction: column;
