@@ -39,3 +39,29 @@ a:hover {
   text-decoration: underline; 
 }
 
+#sidebar {
+  position: fixed;
+  left: -250px; 
+  top: 0;
+  width: 250px;
+  height: 100%;
+  background-color: rgba(2,66,38,0.9);
+  transition: left 0.3s;
+  padding: 10px;
+}
+
+#sidebar.open {
+  left: 0; 
+}
+
+#toggle-btn {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  background: #444;
+  color: #fff;
+  border: none;
+  font-size: 24px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
