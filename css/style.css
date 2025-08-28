@@ -30,11 +30,12 @@ header {
 }
 
 a {
-  color: #F0F; 
+  color: #E585FF; 
   text-decoration: none; 
 }
 
 a:hover {
+  color: #F0F;
   text-decoration: underline; 
 }
 
