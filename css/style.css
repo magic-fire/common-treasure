@@ -66,8 +66,8 @@ a:hover {
   font-size: 24px;
   padding: 5px 10px;
   cursor: pointer;
-  transition: right 0.3s;
+  transition: left 0.3s;
 }
 #toggle-btn.open {
-  transform: translateX(270px); 
+  left: 270; 
 }
