@@ -1,1 +1,52 @@
-<html>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>MFCT</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="images/sm-mayday.png" type="image/png">
+</head>
+<body>
+  <header>
+  <h1><strong>M</strong>agic-<strong>F</strong>ire/<strong>C</strong>ommn-<strong>T</strong>reasure</h1>
+  <p>魔法と火と宝の冒険譚</p>
+  </header>
+  <button id="toggle-btn">☰</button>
+  <section id ='sidebar'>
+  <section id ='contents'>
+  <h3>目次</h3>
+  <ul>
+    <li><a href="index.html">topページ</a></li>
+  </ul>
+  </section>
+  <section id='prog'>
+  <h3>進捗</h3>
+  <section id='green'>
+  <p><strong>達成済み</strong></p>
+  <ul>
+    <li>topページ搭載</li>
+  </ul>
+  </section>
+  <section id='red'>
+  <p><strong>未達成</strong></p>
+  <ul>
+    <li>ブログ纏めページ作成</li>
+    <li>ブログ作成</li>
+    <li>計算機追加</li>
+    <li>タイマー追加</li>
+    <li>ルーレット追加</li>
+  </ul>
+  </section>
+  </section>
+  </section>
+<script>
+const btn = document.getElementById('toggle-btn');
+const sidebar = document.getElementById('sidebar');
+
+btn.addEventListener('click', () => {
+sidebar.classList.toggle('open');
+btn.classList.toggle('open'); 
+});
+</script>
+</body>
+</html>
